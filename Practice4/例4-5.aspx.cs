@@ -37,7 +37,7 @@ public partial class 例4_5 : System.Web.UI.Page
 	}
 	protected void BindDay()
 	{
-		ddlYear.Items.Clear();
+		ddlDay.Items.Clear();
 		string year = ddlYear.SelectedValue;
 		string month = ddlMonth.SelectedValue;
 		int days = DateTime.DaysInMonth(int.Parse(year), int.Parse(month));

@@ -11,6 +11,15 @@
     <form id="form1" runat="server">
         <div>
         </div>
+        <asp:ListBox ID="lstLeft" runat="server" SelectionMode="Multiple">
+            <asp:ListItem Value="hunan">湖南</asp:ListItem>
+            <asp:ListItem Value="jiangxi">江西</asp:ListItem>
+            <asp:ListItem Value="beijing">北京</asp:ListItem>
+            <asp:ListItem Value="shnaghai">上海</asp:ListItem>
+        </asp:ListBox>
+        <asp:Button ID="btnMove" runat="server" Text="&gt;" OnClick="btnMove_Click" />
+        <asp:ListBox ID="lstRight" runat="server" SelectionMode="Multiple">
+        </asp:ListBox>
     </form>
 </body>
 </html>

@@ -11,4 +11,14 @@ public partial class 例4_6 : System.Web.UI.Page
 	{
 
 	}
+	protected void btnMove_Click(object sender, EventArgs e)
+	{
+		for(int i = 0; i < lstLeft.Items.Count; i++) { 
+		if (lstLeft.Items[i].Selected)
+		{
+			lstRight.Items.Add(lstLeft.Items[i]);
+			lstLeft.Items.Remove(lstLeft.Items[i]);
+			i--;
+		}}
+	}
 }
