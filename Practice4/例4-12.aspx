@@ -10,6 +10,9 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <asp:PlaceHolder ID="plhTest" runat="server"></asp:PlaceHolder>
+            <br />
+            <asp:Button ID="btnAcquire" runat="server" Text="获取" OnClick="btnAcquire_Click" />
         </div>
     </form>
 </body>
