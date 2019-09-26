@@ -10,7 +10,13 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            1
+            <asp:Table ID="tblScore" runat="server" GridLines="Both">
+                <asp:TableRow runat="server">
+                    <asp:TableCell runat="server">学号</asp:TableCell>
+                    <asp:TableCell runat="server">姓名</asp:TableCell>
+                    <asp:TableCell runat="server">成绩</asp:TableCell>
+                </asp:TableRow>
+            </asp:Table>
         </div>
     </form>
 </body>

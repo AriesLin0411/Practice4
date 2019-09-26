@@ -10,7 +10,8 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:HyperLink ID="hlkMouse" runat="server" NavigateUrl="http://www.21cn.com">HyperLink</asp:HyperLink>
+            
+            <asp:HyperLink ID="hlkMouse" runat="server" NavigateUrl="http://www.21cn.com" ><asp:Image ID="imgMouse" runat="server" ImageUrl="~/img/click.jpg" /></asp:HyperLink>
         </div>
     </form>
 </body>
